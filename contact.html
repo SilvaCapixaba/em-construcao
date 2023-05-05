@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+             
+        button {
+            width: 150px;
+            height: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        label {
+            font-family: 'Arial';        
+            
+        }
+
+        h1 {
+            color: #003333;
+            margin-left: 250px;
+        }
+               
+    </style>
+        
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li id="menu"><strong><u><a href="index.html">Pagina Inicial</u></strong></a></li>
+                <li id="menu"><strong><u><a href="about.html">Sobre</u></strong></a></li>
+                <li id="menu"><strong><u><a href="horario.html">Horários</u></strong></a></li>
+                <li id="menu"><strong><u><a href="contact.html">Contato</u></strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+               <img width="1000" height="300" src="https://image.cachorrogato.com.br/textimages/psicologo-para-caes.jpg">
+            </div>
+            <a href="index.html">Voltar</a>
+    
+            <div class="content">
+                    <div id="info">
+                        <h1>Contato</h1>
+                        <form class="contato" method="post" >
+                            <div>
+                                <label>Nome</label><input type="text" />
+                            </div>
+                            <br>
+                            <div>
+                                <label>E-mail</label><input type="email" />
+                            </div>
+                            <br>
+                            <div>
+                                <label>Telefone</label><input type="number" />
+                            </div>
+                            <br>
+                            <div>
+                                <label> É consulta?</label><input type="radio" name="aceita">Sim </label><input type="radio" name="aceita"> Não <br>
+                            </div>
+                            <br>
+                            <div>    
+                                <label>Sobre qual assunto</label>
+                                <select name=""><br>
+                                    <option value=" ">selecione o setor</option>
+                                    <option selected value="consulta">Marcar consulta</option>
+                                    <option value="imagem">Diagnostico Imagem</option>
+                                    <option value="intenacao">Internação</option>
+                                    <option value="laboratorio">Laboratório</option>                        
+                                </select>
+                            </div>
+                            <br>
+                            <div>
+                                <label> Quer agendar ligação?</label><input type="radio" name="aceita">Sim </label><input type="radio" name="aceita"> Não 
+                            </div>
+                            <br>
+                            <div>
+                                <label>Escolhe a data - Hora</label><input type="datetime-local" />
+                            </div>
+                            <br>
+                            <div>
+                                <label> Menssagem</label>
+                            </div>
+                            <div>
+                            <br>
+                                <textarea rows="10" cols="50" name="menssagem"></textarea>
+                            </div>
+                            <br>
+                            <div class="button">
+                                <button type="submit">Enviar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                              
+
+            </div>
+    
+            <div class="footer">
+                <h3>INFORMAÇÃO DE CONTATO</h3>
+                <p><strong>Telefone</strong>
+                (27) 99999-0000</p>
+                <h3>Desenvolvido por:</h3>
+                <p>Silva Capixaba</p>
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Template - Utilizar como modelo</title>
+        <link rel="stylesheet" href="base.css">
+
+        <style>
+            .row {
+                margin: 5px;
+
+            }
+
+            label {
+                width: 100px;
+                text-align: right;
+                display: inline-block;
+                padding-right: 5px;
+            }
+
+            fieldset {
+                margin: 10px 0;
+                border-radius: 10px;
+                border-color: #003333;
+            }
+
+            h1 {
+            color: #003333;
+                margin-left: 250px;
+            }
+            p {
+                color: #003333;
+                margin-left: 10px;
+                font-size: 20px;
+            }
+
+            button {
+                width: 100px;
+                height: 30px;
+                background-color: #003333;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="menu">
+                <ul>
+                    <li id="menu"><strong><u><a href="index.html">Pagina Inicial</u></strong></a></li>
+                    <li id="menu"><strong><u><a href="about.html">Sobre</u></strong></a></li>
+                    <li id="menu"><strong><u><a href="horario.html">Horários</u></strong></a></li>
+                    <li id="menu"><strong><u><a href="contact.html">Contato</u></strong></a></li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="header">
+                <img width="1000" height="300" src="https://www.vetquality.com.br/wp-content/uploads/2018/01/c700x420.jpg">
+            </div>
+                <a href="index.html">Voltar</a>
+
+                <div class="content">
+                        <h1>
+                            Consulta
+                        </h1>
+                        <P>
+                            Nossa central esta sempre pronto a te atender!
+                            Você pode estar marcando consulta do seu animal pelo nosso sites, se desejar uma ligação nossa
+                            lembra de marcar a caixinha "Sim".
+                            Nós vamos agendar e te ligar ou enviamos menssagem de texto, para confirmação.   
+                        </P>     
+                        
+                        <h1>PRONTUÁRIO DE CONSULTA</h1>
+                <fieldset>
+                    <fieldset>
+                        <legend>
+                            Dados pessoais
+                        </legend>
+
+                            <div class="row">
+                                <label>
+                                    Nome Completo
+                                </label>
+                                    <input type="text" />                
+                                <label>
+                                    E-mail
+                                </label>
+                                    <input type="text" />
+                                <label>
+                                    Numero de telefone
+                                </label>
+                                    <input type="text" />
+                            </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                            <legend>
+                                Dados animal
+                            </legend>
+
+                        <div class="row">
+                            <label>
+                                Qual raça
+                            </label>
+                                <input type="text" />
+                            <label>
+                                Qual tipo de animal
+                            </label>
+                            <input type="text" />
+
+                            <label>
+                                Apelido
+                            </label>
+                            <input type="text" />
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                            <legend>
+                                Dados animal
+                            </legend>
+
+                        <div>                                
+                            <label>
+                                Nome Completo
+                            </label>
+                                <input type="text" />                           
+                            <label>
+                                Data de nascimento
+                            </label>
+                                <input type="text" />
+                        </div>
+
+                    </fieldset>
+                                            
+                    <fieldset>
+                        <legend>
+                            Endereço
+                        </legend>
+
+                        <div class="row">
+                            <label>
+                                Rua
+                            </label>
+                                <input type="text" />
+                            <label>
+                                Numero
+                            </label>
+                                <input type="text" />
+                            <label>
+                                Bairro
+                            </label>
+                                <input type="text" />
+                            <label>
+                                Cidade
+                            </label>
+                                <input type="text" />
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            Quer tal uma ligação para confirmar horário
+                        </legend>
+
+                        <div class="row">
+                            <label>Quer ligação para confirmação</label>
+                            <input type="radio" name="aceita" value="sim">Sim</label><input type="radio" name="aceita" value="sim">Não
+                        </div>
+                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            Data do agendamento e Horário
+                        </legend>
+
+                        <div class="row">
+                            <label>
+                                Horário
+                            </label><input type="text" />
+                            <label>
+                                Qual data
+                            </label><input type="date" />
+                        </div>
+
+                    </fieldset>
+
+                    <div>
+                        <button type="reset">
+                            Limpar
+                        </button>
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </div>
+                    
+                </div> 
+            </fieldset>
+                    
+        
+                <div class="footer">
+                    <h3>INFORMAÇÃO DE CONTATO</h3>
+                    <p><strong>Telefone</strong>
+                    (27) 99999-0000</p>
+                    <h3>Desenvolvido por:</h3>
+                    <p>Silva Capixaba</p>
+                    
+                </div>
+            
+        </div>
+    </body>
+</html>
